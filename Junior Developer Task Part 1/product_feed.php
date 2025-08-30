@@ -26,11 +26,11 @@ $all_products = [];
 
 // Loop through product headers and details to create a combined array
 foreach ($product_header as $header) {
+    if ($header['status'] !== 'active') {
+        continue; // Skip inactive products
+    }
     foreach ($product_detail as $detail) {
         if ($header['id'] === $detail['id']) {
-            if ($header['status'] !== 'active') {
-                continue; // Skip inactive products
-            }
             if ($detail['stock'] <= 0) {
                 continue; // Skip products that are out of stock
             }
