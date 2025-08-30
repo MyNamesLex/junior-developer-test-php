@@ -1,0 +1,156 @@
+#product {
+  display: block;
+}
+
+.siderow {
+  display: flex;
+}
+
+.imgs {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr 1fr;
+  gap: 20px;
+  margin-left: 100px;
+  margin-right: 20px;
+  padding: 0px;
+  width: 50%;
+}
+
+.imgs img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  margin-right: 0px;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+}
+
+.text h5{
+  font-size: 16px;
+  word-spacing: 10px;
+}
+
+.text h6{
+  font-size: 16px;
+  word-spacing: 10px;
+}
+
+#price {
+  display: flex;
+  margin-bottom: 0px;
+  word-spacing: 0px;
+}
+
+#price p {
+  color: red;
+}
+
+.sell {
+  margin-left: 16px;
+  color: red;
+}
+
+.altimgs {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-top: 20px;
+  max-height: 300px;
+  max-width: 300px;
+}
+
+.altimgs img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.size {
+  display: block;
+  margin-top: 10px;
+}
+
+.size p{
+  font-size: 15px;
+  color: gray;
+  margin-bottom: 0px;
+}
+
+.sizebtns {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  margin-bottom: 10px;
+}
+
+.sizebtns button{
+  background-color:white;
+  border-color:black;
+  height: 60px;
+  margin: 4px;
+  padding: 10px 20px;
+}
+
+.addtobag {
+  display: flex;
+  margin-top: 0px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.addtobag button {
+  height: 55px;
+  width: 550px;
+  border-radius: 90px;
+  padding: 10px 20px;
+  border: none;
+  color: white;
+  background-color: black;
+  border-color: white;
+}
+
+.Description {
+  display: block;
+  max-width: 600px;
+}
+
+.Description h5{
+  font-size: 17px;
+  margin-bottom: 20px;
+}
+
+.offerrow {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.redline {
+  margin-left: 400px;
+  background-color: red;
+  width: 3px;
+  height: 20px;
+  margin-right: 10px;
+}
+  
+.redline2 {
+  background-color: red;
+  width: 3px;
+  height: 20px;
+  margin-left: 10px;
+}
+
+.redline3 {
+  background-color: red;
+  width: 3px;
+  height: 20px;
+}
+
+.footer {
+  height:50px;
+}
